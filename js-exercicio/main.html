@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicio-html-js</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>
+                Exercicio HTML com JS
+            </h1>
+            <nav>
+                <ul>
+                    <li>Projeto Tamiris Moreno</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="form">
+        <div class="container">
+            <form id="formNumber">
+                <h2>
+                    Preencha o Campo Abaixo
+                </h2>
+                <label for="campo-A">Área A</label>
+                <input id="campoA" type="number" required placeholder="Qual é o valor de A">
+                <label for="campo-B">Área B</label>
+                <input id="campoB" type="number" required placeholder="Qual é o valor de B" >
+                <button type="submit" id="envio">Comparar</button>
+            </form>
+            <p class="mensagemVerdadeiro"></p>
+            <p class="mensagemFalso"></p>
+        </div>
+    </section>
+    <script src="./main.js"></script>
+</body>
+</html>
